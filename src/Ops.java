@@ -154,65 +154,132 @@ public class Ops {
 		o = 15;
 		System.out.println(~o);
 		
-		
-		
-				
+		int ls = 5;
+		System.out.println(5<<2);
+		// 5  101
+		// << 2
+		// 10100
+
+		System.out.println(40>>2);
+
+		System.out.println(5>>2);
+		System.out.println(5>>>2);
+		a = 5;
+		b = 4;
+		String str = a>b?"a is bigger":"b is bigger";
+
+		System.out.println(str);
+
+		if(false){
+			System.out.println("wont work");
+		}
+		if(true){
+			System.out.println("will work");
+		}
+
+		if(true){
+			System.out.println("true");
+		}else{
+			System.out.println("false");
+		}
+
+		if(false){
+			System.out.println("true");
+		}else{
+			System.out.println("false");
+		}
 		
 		
 				
 			
-	
+		switch(10){
+			case 10:System.out.println("ten");break;
+			default:System.out.println("no cases");break;
+		}
+
+		String name = "ram";
+
+		switch(name){
+			case "ram":System.out.println("ram");break;
+			default:System.out.println("no cases");break;
+		}
+		name = "rani";
+
+		switch(name){
+			case "ram":System.out.println("ram");break;
+			default:System.out.println("no cases");break;
+		}
 		
 		
+		int m = 0;
+		while(m<=100){
+			System.out.println(m);
+			m++;
+		}
+
+		do{
+			System.out.println(m);
+			m++;
+		}while(m<=100);
+		
+		for(int fi = 1 ; fi<=100;fi++){
+			System.out.println(fi);
+
+		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		int array[] = {1,2,3,4,5};
+		for(int fai = 0; fai < 5 ; fai++){
+			System.out.println(array[fai]);
+		}
+		for(int ai : array){
+			System.out.println(ai);
+		}
+
+		String strnames[] = {"ram","raj","rani"};
+
+		for(String sn : strnames){
+			System.out.println(sn);
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
 
 }
