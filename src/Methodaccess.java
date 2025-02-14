@@ -30,6 +30,5 @@ class DemoMethodAccess{
         obj.info2();
         //obj.info3(); // cant access directly
         obj.foo();
-
     }
 }
