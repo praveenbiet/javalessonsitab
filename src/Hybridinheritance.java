@@ -2,7 +2,7 @@ package src;
 class HBase0{
     int c = 15;
     HBase0(){
-        System.out.println("HBase0 constructor");
+        System.out.print("HBase0 constructor");
     }
 }
 class HBase1 extends HBase0{
