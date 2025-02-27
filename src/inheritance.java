@@ -22,6 +22,7 @@ class simpleinheritance  extends inheritance{
 
 class simpleinheritancedemo {
     public static void main(String[] io){
+
         simpleinheritance sobj = new simpleinheritance();
     }
 }
