@@ -22,3 +22,14 @@ int main() {
     printf("%d",k);
     return 0;
 }
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a = 5;
+    int b = 0;
+    printf("%f",a/b);
+
+    return 0;
+}
