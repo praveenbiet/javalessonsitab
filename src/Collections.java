@@ -2,6 +2,7 @@ package src;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class Collections {
     public static void main(String[] args) {

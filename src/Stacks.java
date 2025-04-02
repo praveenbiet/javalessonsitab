@@ -1,6 +1,7 @@
 package src;
 
 import java.util.Stack;
+import java.util.Vector;
 
 public class Stacks {
     public static void main(String[] args) {
