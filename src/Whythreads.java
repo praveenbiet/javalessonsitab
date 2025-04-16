@@ -3,7 +3,7 @@ import java.util.Random;
 
  class ArrayAdditionSingleThread {
     public static void main(String[] args) {
-        int size = 100_000_000;
+        int size = 100_00_000;
         int[] a = new int[size];
         int[] b = new int[size];
         int[] result = new int[size];
