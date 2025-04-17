@@ -119,3 +119,78 @@ public class StudentCRUD {
         }
     }
 }
+/*
+Connected to the database.
+
+---- MENU ----
+1. Create Student
+2. Read All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Choose an option: 1
+Enter name: saki
+Enter age: 23
+Enter roll no: 23e1154765
+Student added.
+
+---- MENU ----
+1. Create Student
+2. Read All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Choose an option: 2
+
+-- Student List --
+Name: ram, Age: 25, Roll No: 24e1154221
+Name: raj, Age: 25, Roll No: 24e1154222
+Name: raj, Age: 25, Roll No: 24e1154222
+Name: saki, Age: 23, Roll No: 23e1154765
+
+---- MENU ----
+1. Create Student
+2. Read All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Choose an option: 3
+Enter roll no to update: 24e1154222
+Enter new name: raju
+Enter new age: 25
+Student updated.
+
+---- MENU ----
+1. Create Student
+2. Read All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Choose an option: 2
+
+-- Student List --
+Name: ram, Age: 25, Roll No: 24e1154221
+Name: raju, Age: 25, Roll No: 24e1154222
+Name: raju, Age: 25, Roll No: 24e1154222
+Name: saki, Age: 23, Roll No: 23e1154765
+
+---- MENU ----
+1. Create Student
+2. Read All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Choose an option: 4
+Enter roll no to delete: 24e1154222
+Student deleted.
+
+---- MENU ----
+1. Create Student
+2. Read All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Choose an option: 5
+Exiting...
+
+ */
