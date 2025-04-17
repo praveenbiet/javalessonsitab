@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class StudentCRUD {
 
     static final String JDBC_URL = "jdbc:mysql://localhost:3306/student";
-    static final String JDBC_USER = "root"; // change as needed
-    static final String JDBC_PASSWORD = ""; // change as needed
+    static final String JDBC_USER = "admin"; // change as needed
+    static final String JDBC_PASSWORD = "Abc@2025"; // change as needed
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
